@@ -24,3 +24,5 @@ Testing node 20 directly
 
 Testing own github actions retry with read write permissions
 
+Testing markbind deploy command 
+
