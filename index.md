@@ -26,3 +26,4 @@ Testing own github actions retry with read write permissions
 
 Testing markbind deploy command 
 
+Add deploy yml 
