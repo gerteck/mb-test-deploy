@@ -8,10 +8,18 @@
       "headingKeywords": {}
     },
     {
+      "src": "README.md",
+      "headings": {
+        "mb-test-deploy-1": "MB-Test-Deploy (1)"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "contents/topic1.md",
       "title": "Topic 1",
       "headings": {
-        "topic-1": "Topic 1"
+        "topic-1": "Topic 1",
+        "modal-with-includes": "Modal with Includes"
       },
       "headingKeywords": {}
     },
@@ -43,7 +51,8 @@
       "src": "index.md",
       "title": "Home Page",
       "headings": {
-        "what-just-happened": "What just happened?"
+        "testing-the-search": "Testing the search",
+        "markbind-native-search-bar": "Markbind Native Search Bar:"
       },
       "headingKeywords": {}
     }

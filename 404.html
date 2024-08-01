@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="MarkBind 5.5.2">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Page not found</title> <link rel="stylesheet" href="/mb-test-deploy/markbind/css/bootstrap.min.css"><link rel="stylesheet" href="/mb-test-deploy/markbind/css/codeblock-dark.min.css"><link rel="stylesheet" href="/mb-test-deploy/markbind/css/markbind.min.css"><link rel="stylesheet" href="/mb-test-deploy/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/mb-test-deploy/plugins/markbind-plugin-tree/markbind-plugin-tree.css"></head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Page not found</title> <link rel="stylesheet" href="/mb-test-deploy/markbind/css/bootstrap.min.css"><link rel="stylesheet" href="/mb-test-deploy/markbind/css/codeblock-dark.min.css"><link rel="stylesheet" href="/mb-test-deploy/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://undefined-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/mb-test-deploy/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/mb-test-deploy/plugins/markbind-plugin-tree/markbind-plugin-tree.css"></head>
 <script>
   const baseUrl = '/mb-test-deploy'
 </script>
@@ -18,4 +18,20 @@
 <script>
   MarkBind.setupWithSearch()
 </script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.2.0/dist/umd/index.js"></script>
+    <script>
+    docsearch({
+      container: "#algolia-search-input",
+      appId: "undefined",
+      apiKey: "undefined",
+      indexName: "undefined",
+      searchParameters: {}
+    });
+  </script>
+    <script>
+    const style = document.createElement('style');
+    style.innerHTML = ".DocSearch-Container { z-index: 1002; position: fixed; }";
+    document.getElementsByTagName('head')[0].appendChild(style);
+  </script>
+  
 </html>
