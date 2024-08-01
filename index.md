@@ -1,29 +1,40 @@
 <frontmatter>
   title: Home Page
-  layout: default.md
   pageNav: 4
   pageNavTitle: "Topics"
 </frontmatter>
 
 <br>
 
-<div class="bg-primary text-white px-2 py-5 mb-4">
-  <div class="container">
-    <h1 class="display-5 no-index">Great!<br>You've just initialized a MarkBind site.</h1>
-    <p class="lead">Let's get started...</p>
-  </div>
-</div>
+## Testing the search
 
----
 
-## What just happened?
+### Markbind Native Search Bar:
 
-Testing subsequent deployment
+<searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback">
+  Something inside
+</searchbar>
 
-Testing node 20 directly
 
-Testing own github actions retry with read write permissions
+<br/>
 
-Testing markbind deploy command 
+Wabbajack is the Daedric artifact of Sheogorath, a mysterious staff that casts random spells ranging in effect from the complete disintegration, to the transformation, or even empowerment of the target. These abilities are able to completely alter the course of battle in one of any number of ways.
 
-Add deploy yml 
+
+<!-- ### Page Find Search Bar
+
+<searchbar pagefind></searchbar>
+
+
+<br/>
+
+
+### Algolia Search Bar
+
+<searchbar algolia></searchbar>
+ -->
+
+
+
+
+

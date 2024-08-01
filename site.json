@@ -24,5 +24,9 @@
   ],
   "deploy": {
     "message": "Site Update."
-  }
+  },
+  "plugins": [
+    "pagefind",
+    "algolia"
+  ]
 }
