@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build & Deploy MarkBind site
-        uses: gerteck/markbind-action@branch-update-node-v20
+        uses: gerteck/markbind-action@branch-upgrade-node-v20
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
