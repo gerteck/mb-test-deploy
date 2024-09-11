@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-  - 20
+  - 18
+dist: focal  # Specify Ubuntu Focal (20.04) distribution
 install:
   - npm i -g markbind-cli
 script: markbind build
