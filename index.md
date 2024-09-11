@@ -6,7 +6,8 @@
 
 <br>
 
-Test Deploy.yml GitHub Actions for Node v18
+* Test Deploy.yml GitHub Actions for Node v18 ✅
+* Test Travis CI for Deployment ✅
 
 ### Markbind Native Search Bar:
 
