@@ -6,9 +6,15 @@
 
 # Topic 1
 
+Testing Node v18 Deployment on GH Pages
+
 > This is a placeholder page - more content to be added.
 
 # Modal with Includes
+
+<searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback">
+  Something inside
+</searchbar>
 
 
 Testing 
@@ -89,3 +95,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 asdfsdjflksdhlf
 </box>
+
+
+<searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback">
+  Something inside
+</searchbar>
