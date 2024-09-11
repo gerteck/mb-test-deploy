@@ -73,7 +73,6 @@
       "src": "index.md",
       "title": "Home Page",
       "headings": {
-        "testing-the-search": "Testing the search",
         "markbind-native-search-bar": "Markbind Native Search Bar:",
         "page-find-search-bar": "Page Find Search Bar",
         "algolia-search-bar": "Algolia Search Bar"
